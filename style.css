@@ -1,0 +1,66 @@
+.rock,.paper,.scissors{
+    height: 60px;
+    border: none;
+    border-radius: 50px;
+}
+.r,.p,.s{
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: height 0.3s,width 0.3s;
+    height: 65px;
+    width: 75px;
+}
+.r:hover,.s:hover,.p:hover{
+    height: 100px;
+    width: 100px;
+}
+.r:active,.p:active,.s:active{
+    background-color: rgb(176, 176, 176);
+}
+.heading{
+    font-family:play;
+    font-size: 40px;
+    font-weight: 600;
+}    
+body{
+    background-color: rgb(29, 153, 255);
+}
+.how-to{
+    background-color: rgb(12, 0, 176);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    padding: 6px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    display: inline-block;
+}
+.buttons{
+    margin-bottom: 10px;
+}
+.reset{
+    padding: 10px;
+    background-color: rgb(12, 0, 176);
+    border: none;
+    color: white;
+    border-radius: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    transition: box-shadow 0.2s;
+    margin-bottom: 10px;
+}
+.reset:hover{
+    box-shadow: 5px 5px 8px rgba(7, 5, 110, 0.6);
+}
+.final{
+    border-color: white;
+    border-width: 3px;
+    border-style: solid;
+    width: 500px;
+    padding: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: rgb(4, 4, 183);
+    color: white;
+}
